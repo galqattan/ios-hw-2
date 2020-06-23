@@ -123,7 +123,16 @@ class ViewController: UIViewController {
         // MARK: -   النهاية
         
         
-        
+        // bonus - بونص
+        func encryptWith(emoji: Bool, array: [String]) -> String{
+            if emoji{
+                return secretNameEmoji(membernamearray: array)
+            }
+            else{
+                return secretNameLetter(membernamearray: array)
+            }
+        }
     }
     
 }
+
